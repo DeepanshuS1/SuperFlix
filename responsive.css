@@ -1,0 +1,267 @@
+@media screen and (max-width: 1150px) {
+    nav {
+        width: 85vw;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .detail {
+        width: 35rem;
+    }
+
+    .detail h1 {
+        font-size: 2.5rem;
+    }
+
+    .medias {
+        width: 35rem;
+    }
+
+    .container {
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    nav {
+        width: 95vw;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        align-items: baseline;
+        padding: 1rem 0 4rem 0;
+    }
+
+    .detail {
+        height: 10rem;
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+    }
+
+    .medias img {
+        width: 31rem;
+    }
+
+    .medias video {
+        width: 23rem;
+    }
+
+    #everv {
+        width: 19rem;
+    }
+
+    .frequent h1 {
+        font-size: 2.8rem;
+    }
+
+    .question {
+        width: 85vw;
+    }
+
+    .end {
+        width: 80vw;
+    }
+
+    .querry {
+        width: 75vw;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .content h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content span {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .frequent h1 {
+        font-size: 2rem;
+    }
+
+    .medias img {
+        width: 28rem;
+    }
+
+    .medias video {
+        width: 21rem;
+    }
+
+    #everv {
+        width: 17rem;
+    }
+
+    .question span,
+    .frequentend>span {
+        font-size: 1rem;
+    }
+
+    .getname input {
+        font-size: 1rem;
+        width: 15rem;
+    }
+
+    .getname input::placeholder {
+        font-size: .9rem;
+    }
+
+    #getbtn {
+        font-size: 1rem;
+        padding: 7px 1rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+
+    .content h1,
+    .frequent h1 {
+        font-size: 1.5rem;
+    }
+
+    .detail h1 {
+        font-size: 1.7rem;
+    }
+
+    .detail span {
+        font-size: 1rem;
+    }
+
+    .container {
+        gap: 0;
+        padding-bottom: 1rem;
+    }
+
+    .medias img {
+        width: 24rem;
+    }
+
+    .medias video {
+        width: 18rem;
+    }
+
+    #everv {
+        width: 14rem;
+    }
+
+    .end {
+        width: 87vw;
+    }
+
+    .querry {
+        width: 83vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .medias img {
+        width: 20rem;
+    }
+
+    .medias video {
+        width: 15rem;
+    }
+
+    #everv {
+        width: 12rem;
+    }
+
+    .content h1 {
+        font-size: 1.25rem;
+    }
+
+    .detail h1 {
+        font-size: 1.4rem;
+    }
+
+    .detail span {
+        font-size: .8rem;
+    }
+
+    .frequentend>span {
+        font-size: .8rem;
+    }
+
+    .end {
+        width: 95vw;
+    }
+
+    .querry {
+        width: 100%;
+    }
+
+    .querry a {
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home {
+        height: 60vh;
+        background-size: 900px;
+    }
+
+    nav {
+        padding-top: .5rem;
+    }
+
+    .content {
+        bottom: -2.2rem;
+    }
+
+    nav h3 {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        padding: .2rem;
+    }
+
+    .content h1 {
+        font-size: 1rem;
+    }
+
+    .content span {
+        font-size: .75rem;
+        text-align: center;
+    }
+
+    .getname{
+        gap: 4px;
+    }
+
+    .getname input {
+        font-size: .85rem;
+        width: 13rem;
+    }
+
+    #getbtn{
+        font-size: .85rem;
+        padding: 6px .7rem;
+    }
+
+    .detail{
+        margin-top: 2rem;
+    }
+
+    .question{
+        width: 93vw;
+        height: 4rem;
+        padding: 0 .6rem;
+    }
+
+    .frequentend>span {
+        font-size: .65rem;
+    }
+}
